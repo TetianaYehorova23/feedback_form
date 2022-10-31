@@ -11,81 +11,78 @@
     <body>
 
         <div class="layout-conteiner">
-            <h1>Форма зворотного зв’язку</h1>
+            <h1>Feedback form</h1>
         
 
              <form class="form">
                 <div class="field required">
-                    <label for="field-name">Ваше ім’я</label>
+                    <label for="field-name">Your name</label>
                     <input type="text" id="field-name" placeholder="Введіть ім’я в форматі Іван Франко" class="control icon-name" required>
                 </div>
 
                 <div class="field required">
-                    <label for="field-email">Ваш E-Mail</label>
+                    <label for="field-email">Your E-Mail</label>
                     <input type="email" id="email" class="control icon-email" required>
                 </div>
 
                 <div class="field required">
-                    <label for="field-phone">Ваш телефон</label>
+                    <label for="field-phone">Your phone</label>
                     <input type="tel" id="field-phone" class="control icon-phone" required>
                 </div>
 
                 <div class="field error required">
-                    <label for="field-phone-err">Ваш телефон</label>
+                    <label for="field-phone-err">Your phone</label>
                     <input type="tel" id="field-phone-err" class="control icon-phone" required>
-                    <p class="error-message">Дане поле заповнене неправильно.<br>
-                        Тут на одну цифру більше ніж треба
+                    <p class="error-message">This field is filled in incorrectly.<br>
+                        There is one digit more than necessary.
                     </p>
                 </div>
 
                 <div class="field">
-                    <label>Ваш регіон</label>
+                    <label>Your region</label>
 
                     <label class="radio">
                         <input type="radio" name="region" value="ukraine"
                         checked>
-                        Україна
+                        Ukraine
                     </label>
 
                     <label class="radio">
                         <input type="radio" name="region" value="poland">
-                        Польща
+                        Poland
                     </label>
                 </div>
 
                 <div class="field">
-                    <label for="field-city">Ваше місто</label>
+                    <label for="field-city">Your town</label>
                     <select id="field-city" class="control">
-                        <option value="" selected>Оберіть зі списку</option>
-                        <option value="kyiv">Київ</option>
-                        <option value="kharkiv">Харків</option>
-                        <option value="odessa">Одеса</option>
-                        <option value="donetsk">Донецьк</option>
+                        <option value="" selected>Choose from the list</option>
+                        <option value="kyiv">Kyiv</option>
+                        <option value="kharkiv">Kharkiv</option>
+                        <option value="odessa">Odessa</option>
+                        <option value="donetsk">Donetsk</option>
                     </select>
                 </div>
 
                 <div class="field">
-                    <label for="field-coment">Довгий текст</label>
-                    <textarea id="field-coment" rows="4" class="control" placeholder="Тут можна написати ваш відгук"></textarea>
+                    <label for="field-coment">Feedback</label>
+                    <textarea id="field-coment" rows="4" class="control" placeholder="You can write your feedback here"></textarea>
                 </div>
 
                 <div class="field no-label">
                     <label class="checkbox">
                         <input type="checkbox" name="tos-agree" value="1">
-                        Погоджуюсь з умовами платформи
+                        I agree with the terms of the platform
                     </label>
                 </div>
 
                 <footer class="form-actions">
-                    <button type="reset" class="btn-reset">Скинути</button>
-                    <button type="submit" class="btn-submit">Готово</button>
+                    <button type="reset" class="btn-reset">Reset</button>
+                    <button type="submit" class="btn-submit">Submit</button>
                 </footer>
             </form>
         </div>
 
     </body>
-
-
-
 
 </html>
